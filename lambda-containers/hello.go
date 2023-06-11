@@ -14,6 +14,6 @@ func HandleRequest(ctx context.Context, name LambdaEvent) (string, error) {
 	return fmt.Sprintf("Hello %s!", name.Name), nil
 }
 
-func hello() {
+func lambdaHandler() {
 	lambda.Start(HandleRequest)
 }
