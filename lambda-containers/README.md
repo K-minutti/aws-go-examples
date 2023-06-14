@@ -1,7 +1,7 @@
 Entities
 
 System 
-Application - Client, Servers, Databases?
+Application - Client, Server, Database?
 Devices
 Protocols
 Data Types
