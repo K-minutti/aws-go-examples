@@ -1,0 +1,8 @@
+name: sys-1
+type: system
+premises: "local | cloud | other | internet facing?"
+subsystems:
+    - name: app-1
+      type: application
+    - name: app-2
+      type: application
