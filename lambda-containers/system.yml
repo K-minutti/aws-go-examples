@@ -4,5 +4,7 @@ premises: "local | cloud | other | internet facing?"
 subsystems:
     - name: app-1
       type: application
+      components: 
+        database: "redis"
     - name: app-2
       type: application
